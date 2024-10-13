@@ -13,7 +13,7 @@ class Settings(BaseSettings):
 
 
     DELAY_EACH_ACCOUNT: list[int] = [15,25]
-    SLEEP_TIME_BETWEEN_EACH_ROUND: list[int] = [18000, 28800]
+    SLEEP_TIME_BETWEEN_EACH_ROUND: list[int] = [18000, 20000]
 
     USE_PROXY_FROM_FILE: bool = False
 
