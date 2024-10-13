@@ -54,7 +54,7 @@ class Tapper:
         self.new_usr = False
         self.balance = 0
         self.multi_thread = multi_thread
-        self.my_ref = "coub__marker_29987832"
+        self.my_ref = "coub__marker_32227453"
         self.coin_earn_per_tap = 0
         self.available_energy = 0
         self.max_energy = 0
@@ -78,7 +78,7 @@ class Tapper:
     async def get_tg_web_data(self, proxy: str | None) -> str:
         try:
             if settings.REF_LINK == "":
-                ref_param = "coub__marker_29987832"
+                ref_param = "coub__marker_32227453"
             else:
                 ref_param = settings.REF_LINK.split("=")[1]
         except:
